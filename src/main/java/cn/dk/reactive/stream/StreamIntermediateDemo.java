@@ -5,7 +5,7 @@ import java.util.stream.Stream;
 
 /**
  * stream 中间操作
- * 所有的 Intermediate 操作都会返回一个 Stream 让操作继续
+ * 所有的 Intermediate 操作都会返回一个 Stream 让下一个流操作继续
  */
 public class StreamIntermediateDemo {
     public static void main(String[] args) {

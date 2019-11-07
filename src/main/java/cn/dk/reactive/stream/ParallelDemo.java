@@ -5,7 +5,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
 /**
- * 并行流
+ * 并行流，让流处理在设定好的线程池中并行进行
  */
 public class ParallelDemo {
     public static void main(String[] args) {
