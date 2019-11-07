@@ -7,6 +7,9 @@ import java.util.Random;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+/**
+ * Stream 流创建样例
+ */
 public class StreamCreateDemo {
     public static void main(String[] args) {
         //集合

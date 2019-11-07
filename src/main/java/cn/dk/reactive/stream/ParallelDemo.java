@@ -4,6 +4,9 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
+/**
+ * 并行流
+ */
 public class ParallelDemo {
     public static void main(String[] args) {
         // parallel 并行流
@@ -11,7 +14,7 @@ public class ParallelDemo {
         //IntStream.range(1,100).parallel().peek(ParallelDemo::debugParallel).count();
 
         // 使用多个 parallel / sequential 时以最后一个为准
-        // 最后一个为 sequential ，串行
+        // 最后一个为 sequential ，串行化
         //IntStream.range(1,100).parallel().peek(ParallelDemo::debugParallel).sequential().peek
         // (ParallelDemo::debugSequential).count();
 
